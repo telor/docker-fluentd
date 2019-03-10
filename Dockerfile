@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.3.3-debian-cloudwatch-1.2
+FROM fluent/fluentd-kubernetes-daemonset:v1.3-debian-cloudwatch-1
 
 # Use root account to use apt
 USER root
